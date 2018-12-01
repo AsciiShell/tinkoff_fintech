@@ -1,5 +1,6 @@
 package com.moonpi.swiftnotes.test
 
+import android.support.test.filters.LargeTest
 import android.support.test.runner.AndroidJUnit4
 import com.moonpi.swiftnotes.app.MainApplication
 import org.junit.Test
@@ -10,6 +11,7 @@ import ru.tinkoff.allure.step
 
 
 @RunWith(AndroidJUnit4::class)
+@LargeTest
 @DisplayName("SwiftNotes tests")
 class SwiftNotesTest : AbstractTest<MainApplication>(MainApplication()) {
 
