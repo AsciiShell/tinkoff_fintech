@@ -1,7 +1,10 @@
-package com.moonpi.swiftnotes;
+package com.moonpi.swiftnotes.test;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
+
+import com.moonpi.swiftnotes.MainActivity;
+import com.moonpi.swiftnotes.R;
 
 import org.junit.Rule;
 import org.junit.Test;

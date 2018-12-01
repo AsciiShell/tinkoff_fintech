@@ -17,6 +17,20 @@ Steps on how to build Swiftnotes:
 - Build -> Rebuild Project and Sync Gradle
 - Good to go!
 
+### Allure report
+
+- To take results from device
+```bash
+adb pull /sdcard/allure-results/
+```
+Where `/sdcard/` is path to external storage
+
+- To build report
+
+```bash
+allure generate allure-results/ --clean
+```
+
 ### License
 
 Copyright &copy; 2018 Adrian Chifor
