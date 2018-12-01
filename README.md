@@ -28,7 +28,7 @@ Where `/sdcard/` is path to external storage
 - To build report
 
 ```bash
-allure generate allure-results/ --clear
+allure generate allure-results/ --clean
 ```
 
 ### License
